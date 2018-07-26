@@ -29,9 +29,9 @@ img[src="images/welcome.gif"] {
 }
 
 .instructions-wrapper {
-	border-style: solid;
+	border: 5px solid;
 	display: inline-flex;
-	margin: 1rem;
+	margin: 10rem;
 }
 
 .instructions-content {
@@ -54,6 +54,23 @@ ol {
 	font-size: 0.8rem;
 }
 
-h2{
-	padding: 2rem;
+.container-life {
+	border: 5px solid;
+	display: inline-flex;
+	margin: 3rem;
+	background-color: royalblue;
+}
+
+img[src="images/stunning.jpg"] {
+	width: 250px;
+	height: 250px;
+	padding: 2em;
+}
+
+h2 {
+	display: inline-block;
+}
+
+.container-life p {
+
 }
