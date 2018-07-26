@@ -1,0 +1,59 @@
+
+
+html, body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div.container-header {
+	background-color: black;
+	color: #00FF00;
+}
+
+.container-header h1 {
+	display: inline-block;
+	font-family: monospace;
+	padding-left: 5em;
+}
+
+.container-header em {
+	font-family: serif;
+	font-size: .80em;
+	font-style: italic;
+	padding-left: 1em;
+}
+
+img[src="images/welcome.gif"] {
+	padding-left: 10rem;
+
+}
+
+.instructions-wrapper {
+	border-style: solid;
+	display: inline-flex;
+	margin: 1rem;
+}
+
+.instructions-content {
+	float: left;
+	display: inline-block;
+}
+
+img[src="images/captain-janeway.png"] {
+	width: 250px;
+	height: 250px;
+	padding: 3rem;
+}
+
+
+ol {
+	text-align: left;
+	padding-left: 10rem;
+	width: 50%;
+	font-family: monospace;
+	font-size: 0.8rem;
+}
+
+h2{
+	padding: 2rem;
+}

@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- custom CSS stylesheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 
 		<title>CSS Mockup Activity</title>
 	</head>
@@ -14,7 +14,7 @@
 
 			<!-- HEADER -->
 			<header>
-				<div class="container">
+				<div class="container-header">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
