@@ -137,3 +137,9 @@ form div:nth-child(4) {
 .form-wrapper h2 {
 	margin-top: 0;
 }
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
