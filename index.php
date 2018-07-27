@@ -21,7 +21,7 @@
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
-			<section>
+			<section class="instructions-panel">
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
@@ -37,7 +37,7 @@
 								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
 							</ol>
 						</div>
-						<img src="images/captain-janeway.png" alt="captain janeway" />
+						<img src="images/captain-janeway.png" alt="captain janeway" class="center" />
 						<div class="clearfix"></div>
 					</div><!--/.instructions-->
 				</div><!--/.container-->
@@ -85,26 +85,26 @@
 
 			<!-- CONTACT FORM -->
 			<section>
-				<div class="container">
+				<div class="container-contact">
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>
-							<div>
+							<div class="name-row">
 								<label for="name">Name</label>
 								<input type="text" name="name" id="name" />
 							</div>
 
-							<div>
+							<div class="email-row">
 								<label for="emailEmail">Email</label>
 								<input type="email" name="email" id="email" />
 							</div>
 
-							<div>
+							<div class="subject-row">
 								<label for="subject">Subject</label>
 								<input type="text" name="subject" id="subject" />
 							</div>
 
-							<div>
+							<div class="message-row">
 								<label for="message">Message</label>
 								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 							</div>
@@ -119,7 +119,7 @@
 		</div><!--/.sfooter-content-->
 
 		<footer>
-			<div class="container">
+			<div class="container-footer">
 				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
 			</div>
 		</footer>

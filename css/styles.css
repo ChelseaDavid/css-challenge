@@ -1,19 +1,65 @@
-
-
+/*****************************************************
+* CSS Mockup Activity - Custom CSS Stylesheet
+* @author rlewis37
+*
+* Some rules have been included here to give you a head start.
+* Create your own custom CSS rules below. Have fun!
+******************************************************/
 html, body {
 	margin: 0;
 	box-sizing: border-box;
 }
 
-div.container-header {
-	background-color: black;
-	color: #00FF00;
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
-.container-header h1 {
+.clearfix {
+	clear: both;
+}
+
+/* create a responsive container */
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container { width: 970px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container { width: 750px; }
+}
+
+/*****************************************************
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+******************************************************/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+header {
+	background-color: #333;
+	color: lime;
+}
+
+header h1 {
 	display: inline-block;
-	font-family: monospace;
-	padding-left: 5em;
+	margin-right: 2rem;
+	font-size: 2.5rem;
 }
 
 .container-header em {
@@ -24,8 +70,9 @@ div.container-header {
 }
 
 img[src="images/welcome.gif"] {
-	padding-left: 10rem;
-
+	display: block;
+	margin: 0 auto 2rem;
+	padding-top: 2em;
 }
 
 .instructions-wrapper {
@@ -54,23 +101,33 @@ ol {
 	font-size: 0.8rem;
 }
 
-.container-life {
-	border: 5px solid;
-	display: inline-flex;
-	margin: 3rem;
-	background-color: royalblue;
+
+section.about-me {
+	background-color: blue;
+	color: #FFF;
+	border: 1px solid white;
 }
 
-img[src="images/stunning.jpg"] {
-	width: 250px;
-	height: 250px;
-	padding: 2em;
+.about-me p span {
+	font-style: italic;
+	color: yellow;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	border: 3px solid white;
+	margin: 2em;
 }
 
 h2 {
-	display: inline-block;
+	margin-top: 0;
+	padding: 1em;
 }
 
-.container-life p {
-
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
