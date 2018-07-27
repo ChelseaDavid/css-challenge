@@ -50,7 +50,7 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
-
+/*sets the header */
 header {
 	background-color: #333;
 	color: lime;
@@ -68,13 +68,13 @@ header h1 {
 	font-style: italic;
 	padding-left: 1em;
 }
-
+/*sets welcome image*/
 img[src="images/welcome.gif"] {
 	display: block;
 	margin: 0 auto 2rem;
 	padding-top: 2em;
 }
-
+/*sets instructions*/
 .instructions-wrapper {
 	border: 5px solid;
 	display: inline-flex;
@@ -101,7 +101,7 @@ ol {
 	font-size: 0.8rem;
 }
 
-
+/*sets about me*/
 section.about-me {
 	background-color: blue;
 	color: #FFF;
@@ -130,4 +130,71 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+/*****************************************************
+* skills styles - Credit to rlewis
+******************************************************/
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	background-color: #333;
+	padding: 10px;
+}
+/*sets footer*/
+.container-footer {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	font-family: monospace;
+	text-align: center;
+	display: inline-block;
+	width: 100%
+}
+
+/*sets contact*/
+.container-contact {
+	background-color: #333;
+}
+.form-wrapper {
+	color: lime;
+	background-color: darkgreen;
+	padding: 2em 10em 2em 10em;
+	margin: 2em 5em 0em 5em;
+	text-align: left;;
+}
+
+label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30%;
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	padding: 10px 31px;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
+}
+
+form {
+	line-height: 2em;
+	margin: 2em;
 }
