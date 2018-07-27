@@ -132,7 +132,7 @@ h2 {
 	width: 50%;
 }
 /*****************************************************
-* skills styles - Credit to rlewis
+* skills styles
 ******************************************************/
 section:nth-child(4) h2 {
 	text-align: right;
@@ -161,15 +161,14 @@ section:nth-child(4) table th {
 }
 
 /*sets contact*/
-.container-contact {
+div.sfooter-content section:last-child {
 	background-color: #333;
 }
+
 .form-wrapper {
-	color: lime;
 	background-color: darkgreen;
-	padding: 2em 10em 2em 10em;
-	margin: 2em 5em 0em 5em;
-	text-align: left;;
+	color: lime;
+	padding: 20px;
 }
 
 label {
@@ -190,11 +189,19 @@ button {
 	border: none;
 }
 
+form div:nth-child(4) {
+	margin-bottom: 15px;
+}
+
 .form-wrapper h2 {
 	margin-top: 0;
 }
 
-form {
-	line-height: 2em;
-	margin: 2em;
+/*****************************************************
+* footer styles
+******************************************************/
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
 }

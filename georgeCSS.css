@@ -1,0 +1,131 @@
+/* start in dev tools, then when happy add to php storm. only go section/div by div and commit and push in between*/
+body {
+	font-family: "Lucida console", Monaco, monospace;
+}
+
+section {
+	padding: 2.5rem;
+}
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
+******************************************************/
+
+/*****************************************************
+HEADER
+ ***********************************************/
+header {
+	background-color: #303030;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 1.5rem;
+	font-size: 2.5rem;
+}
+/**********************************
+welcome img
+ **********************************/
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin:0 auto 2rem; ;
+}
+/***********************************
+instructions
+ ***********************************/
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+/*******************************************
+about me
+ ******************************************/
+
+section.about-me {
+	background-color: blue;
+	color: #FFF;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+/******************************************
+table
+ ******************************************/
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	text-align: left;
+	background-color: #333;
+	padding: 10px;
+}
+/*********************************************
+contact
+ ********************************************/
+div.sfooter-content section:last-child {
+	background-color: #272727;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: flex;
+	margin: 15px 0 5px 0;
+}
+
+input textarea {
+	width: 30%;
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	padding: 10px 31px;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
